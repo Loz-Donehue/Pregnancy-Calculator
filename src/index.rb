@@ -9,5 +9,7 @@ user = User.new
 
 puts "Welcome to the Pregnancy Calculator!"
 user.name = prompt.ask("What is your name?", required: true)
+puts "Hello #{user.name}."
+puts "Please select an option from the following menu:"
 
 
