@@ -1,5 +1,4 @@
 require "tty-prompt"
-require_relative("./data.rb")
 
 class Interface
   attr_reader :prompt
